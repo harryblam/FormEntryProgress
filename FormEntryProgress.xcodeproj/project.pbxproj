@@ -8,20 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		751D99D01E964AF800B96E93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751D99CF1E964AF800B96E93 /* AppDelegate.swift */; };
-		751D99D21E964AF800B96E93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751D99D11E964AF800B96E93 /* ViewController.swift */; };
+		751D99D21E964AF800B96E93 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751D99D11E964AF800B96E93 /* FirstViewController.swift */; };
 		751D99D51E964AF800B96E93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 751D99D31E964AF800B96E93 /* Main.storyboard */; };
 		751D99D71E964AF800B96E93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 751D99D61E964AF800B96E93 /* Assets.xcassets */; };
 		751D99DA1E964AF800B96E93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 751D99D81E964AF800B96E93 /* LaunchScreen.storyboard */; };
+		751D99E21E964ECF00B96E93 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751D99E11E964ECF00B96E93 /* SecondViewController.swift */; };
+		751D99E41E964EDC00B96E93 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751D99E31E964EDC00B96E93 /* ThirdViewController.swift */; };
+		751D99E61E964EE900B96E93 /* ForthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751D99E51E964EE900B96E93 /* ForthViewController.swift */; };
+		751D99E81E96518400B96E93 /* ProgressViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751D99E71E96518400B96E93 /* ProgressViewPresenter.swift */; };
+		751D99EB1E9653E200B96E93 /* ProgressNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751D99EA1E9653E200B96E93 /* ProgressNavigationController.swift */; };
+		751D99ED1E9657DE00B96E93 /* ProgressViewUpdater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751D99EC1E9657DE00B96E93 /* ProgressViewUpdater.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		751D99CC1E964AF800B96E93 /* FormEntryProgress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FormEntryProgress.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		751D99CF1E964AF800B96E93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		751D99D11E964AF800B96E93 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		751D99D11E964AF800B96E93 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		751D99D41E964AF800B96E93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		751D99D61E964AF800B96E93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		751D99D91E964AF800B96E93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		751D99DB1E964AF800B96E93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		751D99E11E964ECF00B96E93 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		751D99E31E964EDC00B96E93 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		751D99E51E964EE900B96E93 /* ForthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForthViewController.swift; sourceTree = "<group>"; };
+		751D99E71E96518400B96E93 /* ProgressViewPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressViewPresenter.swift; sourceTree = "<group>"; };
+		751D99EA1E9653E200B96E93 /* ProgressNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressNavigationController.swift; sourceTree = "<group>"; };
+		751D99EC1E9657DE00B96E93 /* ProgressViewUpdater.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressViewUpdater.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +67,13 @@
 			isa = PBXGroup;
 			children = (
 				751D99CF1E964AF800B96E93 /* AppDelegate.swift */,
-				751D99D11E964AF800B96E93 /* ViewController.swift */,
+				751D99D11E964AF800B96E93 /* FirstViewController.swift */,
+				751D99E11E964ECF00B96E93 /* SecondViewController.swift */,
+				751D99E31E964EDC00B96E93 /* ThirdViewController.swift */,
+				751D99E51E964EE900B96E93 /* ForthViewController.swift */,
+				751D99E71E96518400B96E93 /* ProgressViewPresenter.swift */,
+				751D99EC1E9657DE00B96E93 /* ProgressViewUpdater.swift */,
+				751D99EA1E9653E200B96E93 /* ProgressNavigationController.swift */,
 				751D99D31E964AF800B96E93 /* Main.storyboard */,
 				751D99D61E964AF800B96E93 /* Assets.xcassets */,
 				751D99D81E964AF800B96E93 /* LaunchScreen.storyboard */,
@@ -137,8 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				751D99D21E964AF800B96E93 /* ViewController.swift in Sources */,
+				751D99E21E964ECF00B96E93 /* SecondViewController.swift in Sources */,
+				751D99ED1E9657DE00B96E93 /* ProgressViewUpdater.swift in Sources */,
+				751D99D21E964AF800B96E93 /* FirstViewController.swift in Sources */,
+				751D99E81E96518400B96E93 /* ProgressViewPresenter.swift in Sources */,
+				751D99E41E964EDC00B96E93 /* ThirdViewController.swift in Sources */,
 				751D99D01E964AF800B96E93 /* AppDelegate.swift in Sources */,
+				751D99EB1E9653E200B96E93 /* ProgressNavigationController.swift in Sources */,
+				751D99E61E964EE900B96E93 /* ForthViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
